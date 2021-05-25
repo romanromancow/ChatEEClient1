@@ -16,7 +16,7 @@ public class Message {
 	private String to;
 	private String text;
 
-	public Message(String from, String text, String to) {
+	public Message(String from, String text) {
 		this.to = to;
 		this.text = text;
 		this.from = from;
